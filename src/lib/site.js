@@ -39,8 +39,7 @@ export const IMAGES = {
 
   // HERO
   // Woman/fashion/heels rather than a random landscape.
-  hero:
-    "https://images.pexels.com/photos/36730467/pexels-photo-36730467.jpeg",
+  hero: "/hero.jpg", 
 
   // EDITORIAL / FEATURED LOOK
   edit:
