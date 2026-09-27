@@ -1,60 +1,144 @@
-// REAL BUSINESS — Sassy Lady Shoes
-// Eastgate Centre, Stall F26, Harare. Phone is confirmed real.
-// No verified Facebook/Instagram handle exists in our research yet —
-// social links below are placeholders. Confirm with the owner and
-// replace before this goes live to a real client.
+// SASSY LADY SHOES
+// Eastgate Centre, Stall F26, Harare.
+// Generic fashion imagery is used because verified Sassy Lady
+// inventory photos were not provided.
+
 export const SITE = {
   brand: "SASSY LADY SHOES",
   tagline: "Heels, Flats & Everything In Between",
-  subtagline: "Women's footwear for every day and every occasion — heels, flats, sneakers, sandals and boots at Eastgate Centre.",
+  subtagline:
+    "Women's footwear for every day and every occasion — heels, flats, sneakers, sandals and boots at Eastgate Centre.",
+
   addressLine1: "Eastgate Centre, Stall F26",
   addressLine2: "Robert Mugabe Rd, Harare",
-  // Hours are not confirmed in our research — neutral wording only, no invented times.
+
   hours: "See WhatsApp for hours",
   status: "Message Us On WhatsApp",
+
   whatsapp: "263772297600",
   phoneDisplay: "077 229 7600",
-  // PLACEHOLDER — no confirmed social handle found. Replace with the
-  // real Facebook page URL once confirmed with the owner.
-  instagram: "https://www.facebook.com/search/top?q=Sassy%20Lady%20Shoes",
-  facebook: "https://www.facebook.com/search/top?q=Sassy%20Lady%20Shoes",
-  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Eastgate+Centre+Harare",
+
+  instagram:
+    "https://www.facebook.com/search/top?q=Sassy%20Lady%20Shoes",
+
+  facebook:
+    "https://www.facebook.com/search/top?q=Sassy%20Lady%20Shoes",
+
+  mapsUrl:
+    "https://www.google.com/maps/search/?api=1&query=Eastgate+Centre+Harare",
 };
 
-// Placeholder stock photography (Lorem Picsum, seeded for consistency).
-// NOT real photos of Sassy Lady's actual inventory — swap for real
-// product photos from the stall as soon as they're available.
+
+// ------------------------------------------------------------
+// SASSY LADY IMAGE LIBRARY
+// Generic footwear/fashion photography.
+// Images are from Pexels and are free to use.
+// ------------------------------------------------------------
+
 export const IMAGES = {
-  hero: "https://picsum.photos/seed/sassylady-hero/1600/1000",
-  edit: "https://picsum.photos/seed/sassylady-edit/1200/1500",
-  dress: "https://picsum.photos/seed/sassylady-heels/900/1100",
-  top: "https://picsum.photos/seed/sassylady-flats/900/1100",
-  blazer: "https://picsum.photos/seed/sassylady-sneakers/900/1100",
-  set: "https://picsum.photos/seed/sassylady-sandals/900/1100",
-  shoes: "https://picsum.photos/seed/sassylady-boots/900/1100",
-  bag: "https://picsum.photos/seed/sassylady-wedges/900/1100",
-  catDresses: "https://picsum.photos/seed/sassylady-cat-heels/700/900",
-  catTops: "https://picsum.photos/seed/sassylady-cat-flats/700/900",
-  catOuterwear: "https://picsum.photos/seed/sassylady-cat-sneakers/700/900",
-  catSets: "https://picsum.photos/seed/sassylady-cat-sandals/700/900",
-  catShoes: "https://picsum.photos/seed/sassylady-cat-boots/700/900",
-  catAccessories: "https://picsum.photos/seed/sassylady-cat-wedges/700/900",
+
+  // HERO
+  // Woman/fashion/heels rather than a random landscape.
+  hero:
+    "https://images.pexels.com/photos/36730467/pexels-photo-36730467.jpeg",
+
+  // EDITORIAL / FEATURED LOOK
+  edit:
+    "https://images.pexels.com/photos/16895105/pexels-photo-16895105.jpeg",
+
+  // HEELS
+  dress:
+    "https://images.pexels.com/photos/26850888/pexels-photo-26850888.jpeg",
+
+  // FLATS
+  top:
+    "https://images.pexels.com/photos/14816287/pexels-photo-14816287.jpeg",
+
+  // SNEAKERS
+  blazer:
+    "https://images.pexels.com/photos/18804985/pexels-photo-18804985.jpeg",
+
+  // SANDALS
+  set:
+    "https://images.pexels.com/photos/8788696/pexels-photo-8788696.jpeg",
+
+  // BOOTS
+  shoes:
+    "https://images.pexels.com/photos/27174561/pexels-photo-27174561.jpeg",
+
+  // WEDGES
+  bag:
+    "https://images.pexels.com/photos/26925245/pexels-photo-26925245.jpeg",
+
+
+  // ----------------------------------------------------------
+  // CATEGORY IMAGES
+  // ----------------------------------------------------------
+
+  catDresses:
+    "https://images.pexels.com/photos/26850888/pexels-photo-26850888.jpeg",
+
+  catTops:
+    "https://images.pexels.com/photos/14816287/pexels-photo-14816287.jpeg",
+
+  catOuterwear:
+    "https://images.pexels.com/photos/27008321/pexels-photo-27008321.jpeg",
+
+  catSets:
+    "https://images.pexels.com/photos/8788696/pexels-photo-8788696.jpeg",
+
+  catShoes:
+    "https://images.pexels.com/photos/27174561/pexels-photo-27174561.jpeg",
+
+  catAccessories:
+    "https://images.pexels.com/photos/26925245/pexels-photo-26925245.jpeg",
 };
+
 
 export const CATEGORIES = [
-  { name: "Heels", image: IMAGES.catDresses },
-  { name: "Flats", image: IMAGES.catTops },
-  { name: "Sneakers", image: IMAGES.catOuterwear },
-  { name: "Sandals", image: IMAGES.catSets },
-  { name: "Boots", image: IMAGES.catShoes },
-  { name: "Wedges", image: IMAGES.catAccessories },
+  {
+    name: "Heels",
+    image: IMAGES.catDresses,
+  },
+
+  {
+    name: "Flats",
+    image: IMAGES.catTops,
+  },
+
+  {
+    name: "Sneakers",
+    image: IMAGES.catOuterwear,
+  },
+
+  {
+    name: "Sandals",
+    image: IMAGES.catSets,
+  },
+
+  {
+    name: "Boots",
+    image: IMAGES.catShoes,
+  },
+
+  {
+    name: "Wedges",
+    image: IMAGES.catAccessories,
+  },
 ];
 
+
 export function whatsappLink(message) {
-  return `https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(
+    message
+  )}`;
 }
 
+
 export function productEnquiryLink(product, size) {
-  const msg = `Hi Sassy Lady, I'm interested in the ${product.name}${size ? ` in size ${size}` : ""}. Is it in stock?`;
+  const msg =
+    `Hi Sassy Lady, I'm interested in the ${product.name}` +
+    `${size ? ` in size ${size}` : ""}. Is it in stock?`;
+
   return whatsappLink(msg);
 }
